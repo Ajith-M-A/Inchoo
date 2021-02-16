@@ -1,0 +1,52 @@
+sudo apt install git -all
+ sudo apt install git-all
+ git --version
+ git config --global user.name "Ajith"
+git config --global user.email "ajithma@ceymox.com"
+ 
+ cd/your project directory
+
+ 1) git init
+ 2) git add . or git add ['filename']
+ 3) git commit -m "My first File"
+ 4) git remote add origin https://github.com/yourusername/your-repo-name.git
+ 5) git pull origin master
+ 6) git push origin master
+
+
+
+
+ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+ sudo apt-get remove git
+ sudo apt-get remove --auto-remove git
+ sudo apt-get purge git
+ sudo apt-get purge --auto-remove git
+
+ mkdir javaprograms
+cd javaprograms
+touch helloworld.java
+gedit helloworld.java
+ git status
+ gedit helloworld.java
+ git init
+ git add helloworld.java
+ git status
+ git commit -m "my first pgm"
+ git push -u origin master
+ git remote add origin "https://github.com/Ajith-M-A/Inchoo.git"
+ git remote -v
+ git add .
+ git help
+ https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+
+ git checkout -b branch
+ git push origin branch3
+
+
+
+
+
+
+
+
