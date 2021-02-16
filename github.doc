@@ -43,6 +43,16 @@ gedit helloworld.java
  git checkout -b branch
  git push origin branch3
 
+ To Push a file to branch
+ ========================
+ cd <destination folder>
+ ls->list
+ git status
+ git add <name of file>
+ git status
+ git commit -m "________"
+ git push origin <branch name>
+
 
 
 
